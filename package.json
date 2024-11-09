@@ -1,0 +1,21 @@
+{
+  "name": "website-to-pdf",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Convert website links to PDF",
+  "main": "index.js",
+  "scripts": {
+    "convert": "node convert-webpage.js",
+    "merge": "node merge.js",
+    "split": "node split.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "pdf-lib": "^1.17.1",
+    "pdf-merger-js": "^5.1.2",
+    "puppeteer": "^23.5.3",
+    "xml2js": "^0.6.2"
+  }
+}
